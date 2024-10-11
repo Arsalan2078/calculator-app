@@ -1,0 +1,38 @@
+@use 'colors';
+@use 'mixins';
+
+@each $theme-name, $theme in colors.$colors {
+  .#{$theme-name} {
+    background-color: map-get($theme, main-bg);
+    color: map-get($theme, main-text);
+
+    .theme-toggle-container {
+      background-color: map-get($theme, toggle-bg);
+    }
+
+    input[type=checkbox].theme-toggle:checked {
+      background-color: map-get($theme, toggle-check);
+    }
+
+    .screen {
+      background-color: map-get($theme, screen-bg);
+      color: inherit;
+    }
+
+    .keypad {
+      background-color: map-get($theme, keypad-bg);
+    }
+
+    .key-1 {
+      @include mixins.set-key-styles($theme, key-1-bg, key-1-shadow, key-1-text)
+    }
+
+    .key-2 {
+      @include mixins.set-key-styles($theme, key-2-bg, key-2-shadow, key-2-text)
+    }
+
+    .key-3 {
+      @include mixins.set-key-styles($theme, key-3-bg, key-3-shadow, key-3-text)
+    }
+  }
+}

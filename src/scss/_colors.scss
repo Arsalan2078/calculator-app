@@ -1,0 +1,75 @@
+$colors: (
+  theme-1: (
+    main-bg: hsl(222, 26%, 31%),
+    main-text: hsl(0, 0%, 100%),
+
+    toggle-bg: hsl(223, 31%, 20%),
+    toggle-check: hsl(6, 63%, 50%),
+
+    screen-bg: hsl(224, 36%, 15%),
+
+    keypad-bg: hsl(223, 31%, 20%),
+
+    key-1-bg: hsl(30, 25%, 89%),
+    key-1-shadow: hsl(28, 16%, 65%),
+    key-1-text: hsl(221, 14%, 31%),
+
+    key-2-bg: hsl(225, 21%, 49%),
+    key-2-shadow: hsl(224, 28%, 35%),
+    key-2-text: hsl(0, 0%, 100%),
+
+    key-3-bg: hsl(6, 63%, 50%),
+    key-3-shadow: hsl(6, 70%, 34%),
+    key-3-text: hsl(0, 0%, 100%)
+  ),
+
+
+  theme-2: (
+    main-bg: hsl(0, 0%, 90%),
+    main-text: hsl(60, 10%, 19%),
+
+    toggle-bg: hsl(0, 5%, 81%),
+    toggle-check: hsl(25, 98%, 40%),
+
+    screen-bg: hsl(0, 0%, 93%),
+
+    keypad-bg: hsl(0, 5%, 81%),
+
+    key-1-bg: hsl(45, 7%, 89%),
+    key-1-shadow: hsl(35, 11%, 61%),
+    key-1-text: hsl(60, 10%, 19%),
+
+    key-2-bg: hsl(185, 42%, 37%),
+    key-2-shadow: hsl(185, 58%, 25%),
+    key-2-text: hsl(0, 0%, 100%),
+
+    key-3-bg: hsl(25, 98%, 40%),
+    key-3-shadow: hsl(25, 99%, 27%),
+    key-3-text: hsl(0, 0%, 100%)
+  ),
+
+
+  theme-3: (
+    main-bg: hsl(268, 75%, 9%),
+    main-text: hsl(52, 100%, 62%),
+
+    toggle-bg: hsl(268, 71%, 12%),
+    toggle-check: hsl(176, 100%, 44%),
+
+    screen-bg: hsl(268, 71%, 12%),
+
+    keypad-bg: hsl(268, 71%, 12%),
+
+    key-1-bg: hsl(268, 47%, 21%),
+    key-1-shadow: hsl(290, 70%, 36%),
+    key-1-text: hsl(52, 100%, 62%),
+
+    key-2-bg: hsl(281, 89%, 26%),
+    key-2-shadow: hsl(285, 91%, 52%),
+    key-2-text: hsl(0, 0%, 100%),
+
+    key-3-bg: hsl(176, 100%, 44%),
+    key-3-shadow: hsl(177, 92%, 70%),
+    key-3-text: hsl(198, 20%, 13%)
+  )
+);

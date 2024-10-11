@@ -1,7 +1,9 @@
 function App () {
   return (
     <>
-      App
+      <div className="box-shadowy">
+        App
+      </div>
     </>
   )
 }

@@ -1,0 +1,16 @@
+@mixin set-key-styles($theme, $bg, $shadow, $text) {
+  padding: 0.5rem 1.0rem;
+  background-color: map-get($theme, $bg);
+  box-shadow: 0 0.25rem 0 map-get($theme, $shadow);
+  color: map-get($theme, $text);
+  transform: translate(0, -0.25rem);
+
+  &:hover {
+    background-color: lighten(map-get($theme, $bg), 10%);
+  }
+
+  &:active {
+    box-shadow: 0 0 0 map-get($theme, $shadow);
+    transform: (0, 0);
+  }
+}

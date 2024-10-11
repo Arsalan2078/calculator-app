@@ -1,0 +1,181 @@
+.theme-1 {
+  background-color: hsl(222, 26%, 31%);
+  color: hsl(0, 0%, 100%);
+}
+.theme-1 .theme-toggle-container {
+  background-color: hsl(223, 31%, 20%);
+}
+.theme-1 input[type=checkbox].theme-toggle:checked {
+  background-color: hsl(6, 63%, 50%);
+}
+.theme-1 .screen {
+  background-color: hsl(224, 36%, 15%);
+  color: inherit;
+}
+.theme-1 .keypad {
+  background-color: hsl(223, 31%, 20%);
+}
+.theme-1 .key-1 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0 0.25rem 0 hsl(28, 16%, 65%);
+  color: hsl(221, 14%, 31%);
+  transform: translate(0, -0.25rem);
+}
+.theme-1 .key-1:hover {
+  background-color: #fdfcfc;
+}
+.theme-1 .key-1:active {
+  box-shadow: 0 0 0 hsl(28, 16%, 65%);
+  transform: 0, 0;
+}
+.theme-1 .key-2 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0 0.25rem 0 hsl(224, 28%, 35%);
+  color: hsl(0, 0%, 100%);
+  transform: translate(0, -0.25rem);
+}
+.theme-1 .key-2:hover {
+  background-color: #808bac;
+}
+.theme-1 .key-2:active {
+  box-shadow: 0 0 0 hsl(224, 28%, 35%);
+  transform: 0, 0;
+}
+.theme-1 .key-3 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0 0.25rem 0 hsl(6, 70%, 34%);
+  color: hsl(0, 0%, 100%);
+  transform: translate(0, -0.25rem);
+}
+.theme-1 .key-3:hover {
+  background-color: #d96659;
+}
+.theme-1 .key-3:active {
+  box-shadow: 0 0 0 hsl(6, 70%, 34%);
+  transform: 0, 0;
+}
+
+.theme-2 {
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(60, 10%, 19%);
+}
+.theme-2 .theme-toggle-container {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme-2 input[type=checkbox].theme-toggle:checked {
+  background-color: hsl(25, 98%, 40%);
+}
+.theme-2 .screen {
+  background-color: hsl(0, 0%, 93%);
+  color: inherit;
+}
+.theme-2 .keypad {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme-2 .key-1 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0 0.25rem 0 hsl(35, 11%, 61%);
+  color: hsl(60, 10%, 19%);
+  transform: translate(0, -0.25rem);
+}
+.theme-2 .key-1:hover {
+  background-color: #fdfdfc;
+}
+.theme-2 .key-1:active {
+  box-shadow: 0 0 0 hsl(35, 11%, 61%);
+  transform: 0, 0;
+}
+.theme-2 .key-2 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 0 0.25rem 0 hsl(185, 58%, 25%);
+  color: hsl(0, 0%, 100%);
+  transform: translate(0, -0.25rem);
+}
+.theme-2 .key-2:hover {
+  background-color: #46a2aa;
+}
+.theme-2 .key-2:active {
+  box-shadow: 0 0 0 hsl(185, 58%, 25%);
+  transform: 0, 0;
+}
+.theme-2 .key-3 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0 0.25rem 0 hsl(25, 99%, 27%);
+  color: hsl(0, 0%, 100%);
+  transform: translate(0, -0.25rem);
+}
+.theme-2 .key-3:hover {
+  background-color: #fc6b03;
+}
+.theme-2 .key-3:active {
+  box-shadow: 0 0 0 hsl(25, 99%, 27%);
+  transform: 0, 0;
+}
+
+.theme-3 {
+  background-color: hsl(268, 75%, 9%);
+  color: hsl(52, 100%, 62%);
+}
+.theme-3 .theme-toggle-container {
+  background-color: hsl(268, 71%, 12%);
+}
+.theme-3 input[type=checkbox].theme-toggle:checked {
+  background-color: hsl(176, 100%, 44%);
+}
+.theme-3 .screen {
+  background-color: hsl(268, 71%, 12%);
+  color: inherit;
+}
+.theme-3 .keypad {
+  background-color: hsl(268, 71%, 12%);
+}
+.theme-3 .key-1 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0 0.25rem 0 hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+  transform: translate(0, -0.25rem);
+}
+.theme-3 .key-1:hover {
+  background-color: #4d2a74;
+}
+.theme-3 .key-1:active {
+  box-shadow: 0 0 0 hsl(290, 70%, 36%);
+  transform: 0, 0;
+}
+.theme-3 .key-2 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0 0.25rem 0 hsl(285, 91%, 52%);
+  color: hsl(0, 0%, 100%);
+  transform: translate(0, -0.25rem);
+}
+.theme-3 .key-2:hover {
+  background-color: #7a0aae;
+}
+.theme-3 .key-2:active {
+  box-shadow: 0 0 0 hsl(285, 91%, 52%);
+  transform: 0, 0;
+}
+.theme-3 .key-3 {
+  padding: 0.5rem 1rem;
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0 0.25rem 0 hsl(177, 92%, 70%);
+  color: hsl(198, 20%, 13%);
+  transform: translate(0, -0.25rem);
+}
+.theme-3 .key-3:hover {
+  background-color: #14ffef;
+}
+.theme-3 .key-3:active {
+  box-shadow: 0 0 0 hsl(177, 92%, 70%);
+  transform: 0, 0;
+}
+
+/*# sourceMappingURL=index.css.map */
