@@ -13,7 +13,7 @@ body {
 }
 
 .calculator-app {
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,9 +23,12 @@ body {
   font-family: typography.$font-stack;
   font-weight: typography.$font-weight-700;
 
+  transition: 0.1s;
+
   .wrapper {
     flex-basis: 30rem;
     display: grid;
     gap: 1rem;
+    transition: inherit;
   }
 }

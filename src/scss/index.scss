@@ -1,7 +1,9 @@
-@use 'reset';
-@use 'themes';
-@use 'typography';
-@use 'base';
+@use './reset';
+@use './themes';
+@use './typography';
+@use './base';
 
 @use './components/nav';
 @use './components/screen';
+@use './components/keypad';
+@use './components/keys';

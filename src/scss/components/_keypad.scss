@@ -1,0 +1,10 @@
+.keypad {
+  border-radius: 1rem;
+  padding: 1.5rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+
+  transition: inherit;
+}

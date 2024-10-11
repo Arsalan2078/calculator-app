@@ -1,0 +1,23 @@
+@use '../typography';
+
+.key-1,
+.key-2,
+.key-3 {
+  border-radius: 0.5rem;
+  padding: 1.1rem 0 0.9rem 0;
+  text-align: center;
+  transition: inherit;
+
+  &.large-key {
+    grid-column: span 2;
+  }
+}
+
+.key-1,
+.key-3 {
+  font-size: typography.$font-size-xl;
+}
+
+.key-2 {
+  font-size: typography.$font-size-lg;
+}
