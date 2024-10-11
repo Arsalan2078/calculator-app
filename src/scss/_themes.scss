@@ -6,11 +6,11 @@
     background-color: map-get($theme, main-bg);
     color: map-get($theme, main-text);
 
-    .theme-toggle-container {
+    .theme-toggle-inputs {
       background-color: map-get($theme, toggle-bg);
     }
 
-    input[type=checkbox].theme-toggle:checked {
+    input[type=checkbox]:checked {
       background-color: map-get($theme, toggle-check);
     }
 

@@ -1,0 +1,28 @@
+@use 'typography';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+}
+
+#root {
+  height: inherit;
+}
+
+.calculator-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: inherit;
+
+  font-family: typography.$font-stack;
+  font-weight: typography.$font-weight-700;
+
+  .wrapper {
+    flex-basis: 30rem;
+  }
+}

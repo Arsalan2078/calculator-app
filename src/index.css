@@ -88,10 +88,10 @@ meter {
   background-color: hsl(222, 26%, 31%);
   color: hsl(0, 0%, 100%);
 }
-.theme-1 .theme-toggle-container {
+.theme-1 .theme-toggle-inputs {
   background-color: hsl(223, 31%, 20%);
 }
-.theme-1 input[type=checkbox].theme-toggle:checked {
+.theme-1 input[type=checkbox]:checked {
   background-color: hsl(6, 63%, 50%);
 }
 .theme-1 .screen {
@@ -148,10 +148,10 @@ meter {
   background-color: hsl(0, 0%, 90%);
   color: hsl(60, 10%, 19%);
 }
-.theme-2 .theme-toggle-container {
+.theme-2 .theme-toggle-inputs {
   background-color: hsl(0, 5%, 81%);
 }
-.theme-2 input[type=checkbox].theme-toggle:checked {
+.theme-2 input[type=checkbox]:checked {
   background-color: hsl(25, 98%, 40%);
 }
 .theme-2 .screen {
@@ -208,10 +208,10 @@ meter {
   background-color: hsl(268, 75%, 9%);
   color: hsl(52, 100%, 62%);
 }
-.theme-3 .theme-toggle-container {
+.theme-3 .theme-toggle-inputs {
   background-color: hsl(268, 71%, 12%);
 }
-.theme-3 input[type=checkbox].theme-toggle:checked {
+.theme-3 input[type=checkbox]:checked {
   background-color: hsl(176, 100%, 44%);
 }
 .theme-3 .screen {
@@ -281,9 +281,59 @@ body {
   justify-content: center;
   align-items: center;
   height: inherit;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
 }
 .calculator-app .wrapper {
   flex-basis: 30rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .calculator-logo {
+  font-size: 2rem;
+}
+.nav .theme-toggle-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.25rem 1rem;
+}
+.nav .theme-toggle-container .theme-tag {
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+.nav .theme-toggle-container .theme-toggle-labels,
+.nav .theme-toggle-container .theme-toggle-inputs {
+  padding: 0.25rem 0.35rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 0.4rem;
+  align-items: center;
+}
+.nav .theme-toggle-container .theme-toggle-labels {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.nav .theme-toggle-container .theme-toggle-inputs {
+  border-radius: 125rem;
+}
+.nav .theme-toggle-container .theme-toggle-labels label,
+.nav .theme-toggle-container .theme-toggle-inputs input {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+.nav .theme-toggle-container .theme-toggle-inputs input {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=index.css.map */

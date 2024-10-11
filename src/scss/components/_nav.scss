@@ -1,0 +1,57 @@
+@use '../typography';
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .calculator-logo {
+    font-size: typography.$font-size-xl;
+  }
+
+  .theme-toggle-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.25rem 1rem;
+
+    .theme-tag {
+      grid-row: span 2;
+      display: flex;
+      align-items: center;
+      font-weight: typography.$font-weight-600;
+      letter-spacing: 0.1rem;
+    }
+
+    .theme-toggle-labels, 
+    .theme-toggle-inputs {
+      padding: 0.25rem 0.35rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 0.4rem;
+      align-items: center;
+    }
+
+    .theme-toggle-labels {
+      font-size: 0.75rem;
+      text-align: center;
+    }
+
+    .theme-toggle-inputs {
+      border-radius: 125rem;
+    }
+    
+    .theme-toggle-labels label, 
+    .theme-toggle-inputs input {
+      display: block;
+      width: 1rem;
+      height: 1rem;
+    }
+
+    .theme-toggle-inputs input {
+      border-radius: 50%;
+    }
+  }
+}
