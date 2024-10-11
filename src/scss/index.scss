@@ -1,1 +1,27 @@
+@use 'reset';
 @use 'themes';
+@use 'typography';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+}
+
+#root {
+  height: inherit;
+}
+
+.calculator-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: inherit;
+
+  .wrapper {
+    flex-basis: 30rem;
+  }
+}

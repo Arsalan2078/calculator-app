@@ -1,10 +1,10 @@
 function App () {
   return (
-    <>
-      <div className="box-shadowy">
-        App
+    <main className="calculator-app theme-1">
+      <div className="wrapper">
+        App      
       </div>
-    </>
+    </main>
   )
 }
 
