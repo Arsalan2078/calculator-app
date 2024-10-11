@@ -17,9 +17,10 @@
     gap: 0.25rem 1rem;
 
     .theme-tag {
+      padding: 0.25rem 0;
       grid-row: span 2;
       display: flex;
-      align-items: center;
+      align-items: end;
       font-weight: typography.$font-weight-600;
       letter-spacing: 0.1rem;
     }

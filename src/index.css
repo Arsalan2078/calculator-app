@@ -277,6 +277,7 @@ body {
 }
 
 .calculator-app {
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,6 +287,8 @@ body {
 }
 .calculator-app .wrapper {
   flex-basis: 30rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .nav {
@@ -304,9 +307,10 @@ body {
   gap: 0.25rem 1rem;
 }
 .nav .theme-toggle-container .theme-tag {
+  padding: 0.25rem 0;
   grid-row: span 2;
   display: flex;
-  align-items: center;
+  align-items: end;
   font-weight: 600;
   letter-spacing: 0.1rem;
 }
@@ -334,6 +338,16 @@ body {
 }
 .nav .theme-toggle-container .theme-toggle-inputs input {
   border-radius: 50%;
+}
+
+.screen {
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=index.css.map */
