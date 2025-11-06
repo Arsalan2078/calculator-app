@@ -1,0 +1,79 @@
+body {
+  @container style(--theme: "1") {
+    color-scheme: dark;
+
+    --background-color-main: #3a4663;
+    --text-color-main: #ffffff;
+
+    --background-color-toggle: #242d44;
+    --background-color-keypad: #242d44;
+    --background-color-screen: #181f33;
+
+    --background-color-key-1: #647198;
+    --background-color-key-1-hover: #a2b2e1;
+    --box-shadow-color-key-1: #414e73;
+    --text-color-key-1: #ffffff;
+
+    --background-color-key-2: #d03f2f;
+    --background-color-key-2-hover: #f96b5b;
+    --box-shadow-key-2: #93261a;
+    --text-color-key-2: #ffffff;
+
+    --background-color-key-3: #eae3dc;
+    --background-color-key-3-hover: #fffffe;
+    --box-shadow-key-3: #b3a497;
+    --text-color-key-3: #434a59;
+  }
+
+  @container style(--theme: "2") {
+    color-scheme: light;
+
+    --background-color-main: #e6e6e6;
+    --text-color-main: #36362c;
+
+    --background-color-toggle: #979797;
+    --background-color-keypad: #979797;
+    --background-color-screen: #ffffff;
+
+    --background-color-key-1: #378187;
+    --background-color-key-1-hover: #62b5bc;
+    --box-shadow-color-key-1: #1b6066;
+    --text-color-key-1: #ffffff;
+
+    --background-color-key-2: #c85402;
+    --background-color-key-2-hover: #ff8a38;
+    --box-shadow-key-2: #873901;
+    --text-color-key-2: #ffffff;
+
+    --background-color-key-3: #e5e4e1;
+    --background-color-key-3-hover: #ffffff;
+    --box-shadow-key-3: #a79e91;
+    --text-color-key-3: #36362c;
+  }
+
+  @container style(--theme: "3") {
+    color-scheme: dark;
+
+    --background-color-main: #17062a;
+    --text-color-main: #ffe53d;
+
+    --background-color-toggle: #1e0936;
+    --background-color-keypad: #1e0936;
+    --background-color-screen: #1e0936;
+
+    --background-color-key-1: #56077c;
+    --background-color-key-1-hover: #8631af;
+    --box-shadow-color-key-1: #be15f4;
+    --text-color-key-1: #ffffff;
+
+    --background-color-key-2: #00ded0;
+    --background-color-key-2-hover: #93fff8;
+    --box-shadow-key-2: #6cf9f1;
+    --text-color-key-2: #1a2327;
+
+    --background-color-key-3: #331c4d;
+    --background-color-key-3-hover: #6c34ac;
+    --box-shadow-key-3: #881c9e;
+    --text-color-key-3: #ffe53d;
+  }
+}

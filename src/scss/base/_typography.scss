@@ -1,0 +1,43 @@
+.text-preset {
+  font-family: var(--font-family-league-spartan);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-normal);
+
+  &--logo {
+    @extend .text-preset;
+    font-size: var(--font-size-logo);
+    letter-spacing: var(--letter-spacing-logo);
+  }
+
+  &--toggle {
+    @extend .text-preset;
+    font-size: var(--font-size-toggle);
+    letter-spacing: var(--letter-spacing-toggle);
+    text-transform: uppercase;
+  }
+
+  &--screen {
+    @extend .text-preset;
+    font-size: var(--font-size-screen);
+    letter-spacing: var(--letter-spacing-screen);
+  }
+
+  &--key-1 {
+    @extend .text-preset;
+    font-size: var(--font-size-key-1);
+    letter-spacing: var(--letter-spacing-key-1);
+    text-transform: uppercase;
+  }
+
+  &--key-2 {
+    @extend .text-preset;
+    font-size: var(--font-size-key-2);
+    letter-spacing: var(--letter-spacing-key-2);
+  }
+
+  &--key-3 {
+    @extend .text-preset;
+    font-size: var(--font-size-key-3);
+    letter-spacing: var(--letter-spacing-key-3);
+  }
+}

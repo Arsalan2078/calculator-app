@@ -1,0 +1,26 @@
+:root {
+  // typography
+  --font-family-league-spartan: "League Spartan", sans-serif;
+  --font-weight-bold: 700;
+  --line-height-normal: normal;
+
+  --font-size-logo: 2rem;
+  --font-size-toggle: 0.75rem;
+  --font-size-screen: clamp(2.5rem, 0.9528rem + 7.547cqw, 3.5rem);
+  --font-size-key-1: clamp(1.25rem, 0.4764rem + 3.7736cqw, 1.75rem);
+  --font-size-key-2: clamp(1.25rem, 0.4764rem + 3.7736cqw, 1.75rem);
+  --font-size-key-3: clamp(2rem, 1.2264rem + 3.7736cqw, 2.5rem);;
+
+  --letter-spacing-logo: -0.033125rem;
+  --letter-spacing-toggle: 0.0625rem;
+  --letter-spacing-screen: -clamp(0.041875rem, 0.0167rem + 0.1226cqw, 0.058125rem);
+  --letter-spacing-key-1: -clamp(0.020625rem, 0.0071rem + 0.066cqw, 0.029375rem);
+  --letter-spacing-key-2: -clamp(0.020625rem, 0.0071rem + 0.066cqw, 0.029375rem);
+  --letter-spacing-key-3: -clamp(0.033125rem, 0.0196rem + 0.066cqw, 0.041875rem);
+
+  // default color theme
+  --theme: "3";
+
+  // root styles
+  font-size: 16px;
+}
